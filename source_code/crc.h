@@ -10,10 +10,6 @@
 
 #include <stdint.h>
 
-#define LengModBusMsg 8
-#define CRC_pos_Hi 6
-#define CRC_pos_Lo 7
-
 
 //
 // 		The CRC16 function

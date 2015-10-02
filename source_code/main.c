@@ -6,7 +6,12 @@
  */
  
 #include <stdio.h>
+#include <stdint.h>
 #include "crc.h"
+
+#define LengModBusMsg 8
+#define CRC_pos_Hi 6
+#define CRC_pos_Lo 7
 
 
 int main()
@@ -30,7 +35,6 @@ int main()
 		printf("ModBus_message[%d] = %X\r\n",i,ModBus_message[i]);
 	}
 	
-	return 1;
 	
 	return 0;
 
